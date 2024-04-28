@@ -3,7 +3,7 @@ function changeColor() {
   
   let hexCode = ``;
   for (let i = 0; i < 6; i++) {
-    var random_index = Math.floor(Math.random() * hex_numbers.length); 
+    let random_index = Math.floor(Math.random() * hex_numbers.length); 
     hexCode += hex_numbers[random_index];
   }
   
