@@ -7,9 +7,7 @@ function changeColor() {
     hexCode += hex_numbers[random_index];
   }
   
-  document.getElementById(`hex-code`).innerHTML =`#`+ hexCode
+  document.getElementById(`hex-code`).innerHTML =`#${hexCode}`
   document.getElementById(`hex-code`).style.color = `white`
   document.getElementsByTagName(`body`)[0].style.background = `#`+hexCode
-  
-console.log(hexCode);
 }
